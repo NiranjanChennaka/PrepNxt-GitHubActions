@@ -1,0 +1,28 @@
+name: ContiniousIntegration
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-slim
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Single line Command
+        run: echo "Hello I am Niranjan from PreNxt World"
+      - name: Run Multi line 
+        run: |
+          echo "Hello I am DevOps Engineer"
+          echo "Hey I am AWS DevOps Engineer"
+        echo "Hello I am DevOps Engineer"
+        echo "Hey I am AWS DevOps Engineer"
+      
+  
