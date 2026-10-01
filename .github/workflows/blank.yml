@@ -22,7 +22,7 @@ jobs:
         run: |
           echo "Hello I am DevOps Engineer"
           echo "Hey I am AWS DevOps Engineer"
-        echo "Hello I am DevOps Engineer"
-        echo "Hey I am AWS DevOps Engineer"
+          echo "Hello I am DevOps Engineer"
+          echo "Hey I am AWS DevOps Engineer"
       
   
